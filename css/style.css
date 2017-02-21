@@ -1,0 +1,17 @@
+
+article{
+    background-color: lightgrey;
+    height: 10em;
+}
+aside{
+    background-color: blue;
+    height: 10em;
+}
+main{
+    background-color: grey;
+    height: 12em;
+}
+footer{
+    background-color: gold;
+    height: 10em;
+}
