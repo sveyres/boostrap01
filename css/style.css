@@ -1,17 +1,28 @@
+header {
+    background-color: black;
+}
 
 article{
-    background-color: lightgrey;
-    height: 10em;
+    background-color: black;
 }
+
 aside{
-    background-color: blue;
-    height: 10em;
+    background-color: white;
 }
+
 main{
-    background-color: grey;
-    height: 12em;
+    background-color: white;
 }
+
 footer{
-    background-color: gold;
-    height: 10em;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.row-no-padding [class*="col-"]{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
