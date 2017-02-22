@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 
 header {
     background-color: black;
@@ -14,6 +17,10 @@ aside{
     background-color: white;
 }
 
+img {
+    width: 100%;
+}
+
 main{
     background-color: white;
 }
@@ -22,9 +29,18 @@ footer{
     background-color: black;
 }
 
-img {
-    width: 100%;
+section {
+    display: flex;
 }
+
+#aside2 {
+    background-color: black;
+}
+
+.navbar-header span[class*="glyphicon"]{
+    color: white;
+}
+
 .btnvert{
     background-color: #009618;
 }
@@ -33,7 +49,23 @@ img {
     padding-right: 0;
 }
 
-/*.row-no-padding [class*="col-"]{
+
+.row-no-padding [class*="col-"]{
     padding-left: 0 !important;
     padding-right: 0 !important;
-}*/
+}
+
+.main-content {
+    background-color: white;
+}
+
+/* sm breakpoint */
+@media (min-width: 768px) {
+    section {
+
+    }
+}
+
+/* md breakpoint */
+@media (min-width: 992px) {
+}
