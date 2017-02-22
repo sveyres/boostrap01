@@ -1,5 +1,9 @@
+
 header {
     background-color: black;
+}
+header a{
+    color: white;
 }
 
 article{
@@ -21,8 +25,15 @@ footer{
 img {
     width: 100%;
 }
+.btnvert{
+    background-color: #009618;
+}
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+}
 
-.row-no-padding [class*="col-"]{
+/*.row-no-padding [class*="col-"]{
     padding-left: 0 !important;
     padding-right: 0 !important;
-}
+}*/
